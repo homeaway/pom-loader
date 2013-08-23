@@ -22,10 +22,10 @@ gem install pom-loader
 #### Usage
 ```ruby
 require 'pom-loader'
-pom_dir = File.expand_path("../../", __FILE__)
-mvn = ENV['MVN2_EXE'] || 'mvn'
+pom_dir = File.expand_path("../../", __FILE__)  # The dir that contains your pom.xml file
+mvn = ENV['MVN2_EXE'] || 'mvn'                  # Your maven executable
 PomLoader.load(pom_dir: pom_dir, mvn_exe: mvn)
-$! = nil # unset evil magic bit
+$! = nil                                        # unset evil magic bit
 ```
 
 --
