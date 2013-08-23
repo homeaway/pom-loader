@@ -14,6 +14,12 @@ maven project)
  - Smile because your java dependencies are loaded onto your classpath
 when you start your app
 
+#### Install
+````ruby
+gem install pom-loader
+````
+
+#### Usage
 ```ruby
 require 'pom-loader'
 pom_dir = File.expand_path("../../", __FILE__)
