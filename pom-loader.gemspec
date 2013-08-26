@@ -7,8 +7,9 @@ require 'pom-loader/version'
 Gem::Specification.new do |s|
   s.name = 'pom-loader'
   s.version = PomLoader::VERSION
+  s.license = "Apache 2.0"
   s.authors = ['Matt Kinman', 'Patrick Ritchie', 'Michael May', 'Alan Scherger']
-  s.email = 'mmay@homeaway.com'
+  s.email = ['mmay@homeaway.com']
   s.homepage = 'http://github.com/homeaway/pom-loader'
   s.summary = 'pom-loader - Loads maven poms into ruby context'
   s.description = 'Can interpret a maven pom and pull properties and classes into context.'
